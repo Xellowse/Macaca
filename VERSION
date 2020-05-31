@@ -1,0 +1,28 @@
+VERSION NOTE
+-------------
+
+1.  IIF Ctor          v1.0.0+mm2     : Initial version
+2.  IIF Ctor(single)  v1.0.0+m       : Initial version
+3.  IIF               v1.0.0+1.1     : Initial version
+4.  IIF UT            v1.0.0         : Initial version
+
+5.  OSAL Ctor         v1.0.0+1       : Initial version
+6.  OSAL Linux Kernel v1.0.0         : Initial version
+7.  OSAL Linux User   v1.0.0         : Initial version
+8.  OSAL UT           v1.0.0+1       : Initial version
+
+9.  Module HAL Ctor   v1.0.0+1       : Initial version
+10. Module HAL        v1.0.0         : Initial version
+11. Module HAL UT     v1.0.0+1       : Initial version
+
+12. Module HW Ctor    v1.0.0+1       : Initial version
+13. Module HW         v1.0.0         : Initial version
+14. Module HW UT      v1.0.0+1       : Initial version
+
+15. Module2 HAL Ctor  v1.0.0+1       : Initial version
+16. Module2 HAL       v1.0.0         : Initial version
+17. Module2 HAL UT    v1.0.0+1       : Initial version
+
+18. Module2 HW Ctor   v1.0.0+1       : Initial version
+19. Module2 HW        v1.0.0         : Initial version
+20. Module2 HW UT     v1.0.0+1       : Initial version

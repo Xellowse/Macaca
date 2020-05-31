@@ -1,0 +1,42 @@
+ToDo List
+=========
+
+Following items is the future work of this project.
+
+
+1. Constructor auto generation:
+     Because of the implementation of constructor is simple
+     and consistent. It's a good way to let it auto generate
+     to improve the develope flow efficiency.
+2. Windows support:
+     The OSAL will add to support Windows in future.
+3. Mutex/Semaphore/sleep/wake up implementation in OSAL:
+     These APIs are important function of kernel. The
+     OSAL will support it as high priority item.
+4. Add more Hardware Abstraction model:
+     The hardware abstraction is a big issue. This project
+     will keep to find out good hardware abstraction mechnism
+     in HAL.
+5. Independent module enable & disable:
+     To improve independency between modules. The enable/disable
+     flow between modules should be independent. In addition,
+     this design is good to  avoid the bug within the modules
+     initialization sequence.
+6. Share buffer mechanism:
+     Two modules share one buffer is a common scenario. This
+     project will add a good mechanism for this.
+7. Debug mechanism
+     How to debug is always the important issue for software.
+     This project plan to provide good debug mechanism in the
+     future.
+8. Complete CI(Continue Integration) flow with Linux Kernel:
+     Can not run unit test for linux kernel currently since
+     there are no root permission of CircleCI server.
+9. DTS abstraction
+     DTS in linux is used for clock tree configurationg,register
+     mapping, IRQ assignment, etc. This project plan to design
+     a mechanism of these items for cross-platform compatible.
+10. Mass production prove
+     It will be great for pass the industry QA and make this
+     project MP proved. Hope this project will reach it in
+     some day.

@@ -1,0 +1,9 @@
+sudo insmod out/osal_linux_kernel_space.ko
+sudo insmod out/hal_module.ko
+sudo insmod out/hw_module.ko
+sudo insmod out/ctor_osal.ko
+sudo insmod out/ctor_hw_module.ko
+sudo insmod out/ctor_hal_module.ko
+sudo insmod out/iif.ko
+sudo insmod out/ctor_iif_single.ko
+sudo insmod out/demo_iif_kernel.ko

@@ -1,0 +1,15 @@
+sudo rmmod demo_iif_kernel
+#sudo rmmod demo_kernel_hal
+sudo rmmod ctor_iif_single
+sudo rmmod ctor_iif
+sudo rmmod iif
+sudo rmmod ctor_hal_module
+sudo rmmod ctor_hal_module2
+sudo rmmod ctor_hw_module
+sudo rmmod ctor_hw_module2
+sudo rmmod ctor_osal
+sudo rmmod hal_module
+sudo rmmod hw_module
+sudo rmmod hal_module2
+sudo rmmod hw_module2
+sudo rmmod osal_linux_kernel_space

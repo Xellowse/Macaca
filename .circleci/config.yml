@@ -1,0 +1,47 @@
+version: 2.1
+jobs:
+  build:
+    machine:
+      image: ubuntu-1604:201903-01
+    steps:
+      - checkout
+      - run:
+          name: The First Step
+          command: |
+            echo 'Hello World!'
+            echo 'This is the delivery pipeline'
+      - run:
+           name: Whole build for linux kernel space
+           command: |
+            make clean
+            make linux_k
+      - run:
+           name: Build Demo for linux kernel space
+           command: |
+            cd demo
+            make clean
+            make linux_k
+      - run:
+           name: Whole build for linux user space
+           command: |
+            make clean
+            make linux_u
+      - run:
+           name: Build Demo for linux user space
+           command: |
+            cd demo
+            make clean
+            make linux_u
+      - run:
+           name: Run  Demo for linux user space
+           command: |
+            cd demo
+            cd out
+            ./demo
+            ./demo_iif
+            ./demo_iif_single
+      - run:
+           name: Run Unit Test for linux user space
+           command: |
+            cd UT/out
+            ./ut_all
