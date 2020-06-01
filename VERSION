@@ -16,7 +16,7 @@ VERSION NOTE
 11. Module HAL UT     v1.0.0+1       : Initial version
 
 12. Module HW Ctor    v1.0.0+1       : Initial version
-13. Module HW         v1.0.0         : Initial version
+13. Module HW         v1.0.1         : Improve stability of HW deinit
 14. Module HW UT      v1.0.0+1       : Initial version
 
 15. Module2 HAL Ctor  v1.0.0+1       : Initial version
@@ -24,5 +24,5 @@ VERSION NOTE
 17. Module2 HAL UT    v1.0.0+1       : Initial version
 
 18. Module2 HW Ctor   v1.0.0+1       : Initial version
-19. Module2 HW        v1.0.0         : Initial version
+19. Module2 HW        v1.0.1         : Improve stability of HW deinit
 20. Module2 HW UT     v1.0.0+1       : Initial version

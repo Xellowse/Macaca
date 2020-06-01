@@ -62,7 +62,7 @@ There are some folder in this template.
     test lib to make sure every part is work correctly.
 
 10. Document :
-     There are some documents in this folder. You can find coding quide, ToDo List, etc. in
+     There are some documents in this folder. You can find coding guide, ToDo List, etc. in
      this folder.
 
 INSTALLATION
@@ -164,7 +164,7 @@ Document/coding_guide.txt
 For each version's update note, please refer to file VERSION.
 
 Version is embedded in the binary. You can get each binary's version by command.
-For exampel:
+For example:
 
   $cat libiif.so -a | grep "sv#"
 

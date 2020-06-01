@@ -13,7 +13,7 @@
 //hw_module_version is used to embed the version information string into binary.
 //sv# is the special term to let the user can use to search the version string
 //in binary easier.
-char *hw_module_version="sv#hw_module_ver:1.0.0";
+char *hw_module_version="sv#hw_module_ver:1.0.1";
 
 #define IRQ_NUM (56)
 
@@ -96,6 +96,8 @@ HwModuleS32 HwModuleDeinit(void *handle){
   if(isr_occupied != 0 && isr_handle == hw_fd){
     hw_fd->OsalHandle->OsalUnRegisterIRQCallBackFnc(IRQ_NUM,(void *)hw_fd->OsalHandle);
     isr_occupied=0;
+    isr_handle->ISRCbMethod=0;
+    isr_handle->ISRCbMethodFd=0;
     isr_handle=0;
   }
 
